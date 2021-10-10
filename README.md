@@ -6,7 +6,7 @@ Country location and database Project.
 
 |     Home    |       Continents      |       Countries          |
 | ------------|-----------------------|--------------------------|
-| <img src="pictures/home.png" width="200"> | <img src="pictures/continents.png" width="200"> | <img src="pictures/countries.png"  width="200"> |
+| <img src="picture/home.png" width="200"> | <img src="picture/continents.png" width="200"> | <img src="picture/countries.png"  width="200"> |
 
 ## Functionality
 
