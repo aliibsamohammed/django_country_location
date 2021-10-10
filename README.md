@@ -21,7 +21,7 @@ Country location and database Project.
 
 ```
 git clone https://github.com/aliibsamohammed/django_country_location
-cd user_profile_project
+cd django_country_location
 ```
 
 ### Install dependencies & activate virtualenv
@@ -37,7 +37,7 @@ pipenv shell
 
 1. Edit `location/settings.py`
 
-2. Edit `user_profile_project/.env`
+
 
 ### Apply migrations
 
