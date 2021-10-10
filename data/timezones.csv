@@ -1,0 +1,424 @@
+zoneName,gmtOffset,gmtOffsetName,abbreviation,tzName
+Africa/Abidjan,0,UTC+00:00,GMT,Greenwich Mean Time
+Africa/Accra,0,UTC+00:00,GMT,Greenwich Mean Time
+Africa/Addis_Ababa,10800,UTC+03:00,EAT,East Africa Time
+Africa/Algiers,3600,UTC+01:00,CET,Central European Time
+Africa/Asmara,10800,UTC+03:00,EAT,East Africa Time
+Africa/Bamako,0,UTC+00:00,GMT,Greenwich Mean Time
+Africa/Bangui,3600,UTC+01:00,WAT,West Africa Time
+Africa/Banjul,0,UTC+00:00,GMT,Greenwich Mean Time
+Africa/Bissau,0,UTC+00:00,GMT,Greenwich Mean Time
+Africa/Blantyre,7200,UTC+02:00,CAT,Central Africa Time
+Africa/Brazzaville,3600,UTC+01:00,WAT,West Africa Time
+Africa/Bujumbura,7200,UTC+02:00,CAT,Central Africa Time
+Africa/Cairo,7200,UTC+02:00,EET,Eastern European Time
+Africa/Casablanca,3600,UTC+01:00,WEST,Western European Summer Time
+Africa/Ceuta,3600,UTC+01:00,CET,Central European Time
+Africa/Conakry,0,UTC+00:00,GMT,Greenwich Mean Time
+Africa/Dakar,0,UTC+00:00,GMT,Greenwich Mean Time
+Africa/Dar_es_Salaam,10800,UTC+03:00,EAT,East Africa Time
+Africa/Djibouti,10800,UTC+03:00,EAT,East Africa Time
+Africa/Douala,3600,UTC+01:00,WAT,West Africa Time
+Africa/El_Aaiun,3600,UTC+01:00,WEST,Western European Summer Time
+Africa/Freetown,0,UTC+00:00,GMT,Greenwich Mean Time
+Africa/Gaborone,7200,UTC+02:00,CAT,Central Africa Time
+Africa/Harare,7200,UTC+02:00,CAT,Central Africa Time
+Africa/Johannesburg,7200,UTC+02:00,SAST,South African Standard Time
+Africa/Juba,10800,UTC+03:00,EAT,East Africa Time
+Africa/Kampala,10800,UTC+03:00,EAT,East Africa Time
+Africa/Khartoum,7200,UTC+02:00,EAT,Eastern African Time
+Africa/Kigali,7200,UTC+02:00,CAT,Central Africa Time
+Africa/Kinshasa,3600,UTC+01:00,WAT,West Africa Time
+Africa/Lagos,3600,UTC+01:00,WAT,West Africa Time
+Africa/Libreville,3600,UTC+01:00,WAT,West Africa Time
+Africa/Lome,0,UTC+00:00,GMT,Greenwich Mean Time
+Africa/Luanda,3600,UTC+01:00,WAT,West Africa Time
+Africa/Lubumbashi,7200,UTC+02:00,CAT,Central Africa Time
+Africa/Lusaka,7200,UTC+02:00,CAT,Central Africa Time
+Africa/Malabo,3600,UTC+01:00,WAT,West Africa Time
+Africa/Maputo,7200,UTC+02:00,CAT,Central Africa Time
+Africa/Maseru,7200,UTC+02:00,SAST,South African Standard Time
+Africa/Mbabane,7200,UTC+02:00,SAST,South African Standard Time
+Africa/Mogadishu,10800,UTC+03:00,EAT,East Africa Time
+Africa/Monrovia,0,UTC+00:00,GMT,Greenwich Mean Time
+Africa/Nairobi,10800,UTC+03:00,EAT,East Africa Time
+Africa/Ndjamena,3600,UTC+01:00,WAT,West Africa Time
+Africa/Niamey,3600,UTC+01:00,WAT,West Africa Time
+Africa/Nouakchott,0,UTC+00:00,GMT,Greenwich Mean Time
+Africa/Ouagadougou,0,UTC+00:00,GMT,Greenwich Mean Time
+Africa/Porto-Novo,3600,UTC+01:00,WAT,West Africa Time
+Africa/Sao_Tome,0,UTC+00:00,GMT,Greenwich Mean Time
+Africa/Tripoli,7200,UTC+02:00,EET,Eastern European Time
+Africa/Tunis,3600,UTC+01:00,CET,Central European Time
+Africa/Windhoek,7200,UTC+02:00,WAST,West Africa Summer Time
+America/Adak,-36000,UTC-10:00,HST,Hawaii\u2013Aleutian Standard Time
+America/Anchorage,-32400,UTC-09:00,AKST,Alaska Standard Time
+America/Anguilla,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/Antigua,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/Araguaina,-10800,UTC-03:00,BRT,Bras\u00edlia Time
+America/Argentina/Buenos_Aires,-10800,UTC-03:00,ART,Argentina Time
+America/Argentina/Catamarca,-10800,UTC-03:00,ART,Argentina Time
+America/Argentina/Cordoba,-10800,UTC-03:00,ART,Argentina Time
+America/Argentina/Jujuy,-10800,UTC-03:00,ART,Argentina Time
+America/Argentina/La_Rioja,-10800,UTC-03:00,ART,Argentina Time
+America/Argentina/Mendoza,-10800,UTC-03:00,ART,Argentina Time
+America/Argentina/Rio_Gallegos,-10800,UTC-03:00,ART,Argentina Time
+America/Argentina/Salta,-10800,UTC-03:00,ART,Argentina Time
+America/Argentina/San_Juan,-10800,UTC-03:00,ART,Argentina Time
+America/Argentina/San_Luis,-10800,UTC-03:00,ART,Argentina Time
+America/Argentina/Tucuman,-10800,UTC-03:00,ART,Argentina Time
+America/Argentina/Ushuaia,-10800,UTC-03:00,ART,Argentina Time
+America/Aruba,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/Asuncion,-10800,UTC-03:00,PYST,Paraguay Summer Time
+America/Atikokan,-18000,UTC-05:00,EST,Eastern Standard Time (North America)
+America/Bahia,-10800,UTC-03:00,BRT,Bras\u00edlia Time
+America/Bahia_Banderas,-21600,UTC-06:00,CST,Central Standard Time (North America)
+America/Barbados,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/Belem,-10800,UTC-03:00,BRT,Bras\u00edlia Time
+America/Belize,-21600,UTC-06:00,CST,Central Standard Time (North America)
+America/Blanc-Sablon,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/Boa_Vista,-14400,UTC-04:00,AMT,Amazon Time (Brazil)
+America/Bogota,-18000,UTC-05:00,COT,Colombia Time
+America/Boise,-25200,UTC-07:00,MST,Mountain Standard Time (North America
+America/Cambridge_Bay,-25200,UTC-07:00,MST,Mountain Standard Time (North America)
+America/Campo_Grande,-14400,UTC-04:00,AMT,Amazon Time (Brazil)
+America/Cancun,-18000,UTC-05:00,EST,Eastern Standard Time (North America)
+America/Caracas,-14400,UTC-04:00,VET,Venezuelan Standard Time
+America/Cayenne,-10800,UTC-03:00,GFT,French Guiana Time
+America/Cayman,-18000,UTC-05:00,EST,Eastern Standard Time (North America)
+America/Chicago,-21600,UTC-06:00,CST,Central Standard Time (North America)
+America/Chihuahua,-25200,UTC-07:00,MST,Mountain Standard Time (North America)
+America/Costa_Rica,-21600,UTC-06:00,CST,Central Standard Time (North America)
+America/Creston,-25200,UTC-07:00,MST,Mountain Standard Time (North America)
+America/Cuiaba,-14400,UTC-04:00,BRT,Brasilia Time
+America/Curacao,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/Danmarkshavn,0,UTC+00:00,GMT,Greenwich Mean Time
+America/Dawson,-25200,UTC-07:00,MST,Mountain Standard Time (North America)
+America/Dawson_Creek,-25200,UTC-07:00,MST,Mountain Standard Time (North America)
+America/Denver,-25200,UTC-07:00,MST,Mountain Standard Time (North America
+America/Detroit,-18000,UTC-05:00,EST,Eastern Standard Time (North America)
+America/Dominica,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/Edmonton,-25200,UTC-07:00,MST,Mountain Standard Time (North America)
+America/Eirunepe,-18000,UTC-05:00,ACT,Acre Time
+America/El_Salvador,-21600,UTC-06:00,CST,Central Standard Time (North America)
+America/Fort_Nelson,-25200,UTC-07:00,MST,Mountain Standard Time (North America)
+America/Fortaleza,-10800,UTC-03:00,BRT,Bras\u00edlia Time
+America/Glace_Bay,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/Goose_Bay,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/Grand_Turk,-18000,UTC-05:00,EST,Eastern Standard Time (North America)
+America/Grenada,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/Guadeloupe,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/Guatemala,-21600,UTC-06:00,CST,Central Standard Time (North America)
+America/Guayaquil,-18000,UTC-05:00,ECT,Ecuador Time
+America/Guyana,-14400,UTC-04:00,GYT,Guyana Time
+America/Halifax,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/Havana,-18000,UTC-05:00,CST,Cuba Standard Time
+America/Hermosillo,-25200,UTC-07:00,MST,Mountain Standard Time (North America)
+America/Indiana/Indianapolis,-18000,UTC-05:00,EST,Eastern Standard Time (North America)
+America/Indiana/Knox,-21600,UTC-06:00,CST,Central Standard Time (North America)
+America/Indiana/Marengo,-18000,UTC-05:00,EST,Eastern Standard Time (North America)
+America/Indiana/Petersburg,-18000,UTC-05:00,EST,Eastern Standard Time (North America)
+America/Indiana/Tell_City,-21600,UTC-06:00,CST,Central Standard Time (North America)
+America/Indiana/Vevay,-18000,UTC-05:00,EST,Eastern Standard Time (North America)
+America/Indiana/Vincennes,-18000,UTC-05:00,EST,Eastern Standard Time (North America)
+America/Indiana/Winamac,-18000,UTC-05:00,EST,Eastern Standard Time (North America)
+America/Inuvik,-25200,UTC-07:00,MST,Mountain Standard Time (North America)
+America/Iqaluit,-18000,UTC-05:00,EST,Eastern Standard Time (North America)
+America/Jamaica,-18000,UTC-05:00,EST,Eastern Standard Time (North America)
+America/Juneau,-32400,UTC-09:00,AKST,Alaska Standard Time
+America/Kentucky/Louisville,-18000,UTC-05:00,EST,Eastern Standard Time (North America)
+America/Kentucky/Monticello,-18000,UTC-05:00,EST,Eastern Standard Time (North America)
+America/La_Paz,-14400,UTC-04:00,BOT,Bolivia Time
+America/Lima,-18000,UTC-05:00,PET,Peru Time
+America/Los_Angeles,-28800,UTC-08:00,PST,Pacific Standard Time (North America)
+America/Maceio,-10800,UTC-03:00,BRT,Bras\u00edlia Time
+America/Managua,-21600,UTC-06:00,CST,Central Standard Time (North America)
+America/Manaus,-14400,UTC-04:00,AMT,Amazon Time (Brazil)
+America/Marigot,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/Martinique,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/Matamoros,-21600,UTC-06:00,CST,Central Standard Time (North America)
+America/Mazatlan,-25200,UTC-07:00,MST,Mountain Standard Time (North America)
+America/Menominee,-21600,UTC-06:00,CST,Central Standard Time (North America)
+America/Merida,-21600,UTC-06:00,CST,Central Standard Time (North America)
+America/Metlakatla,-32400,UTC-09:00,AKST,Alaska Standard Time
+America/Mexico_City,-21600,UTC-06:00,CST,Central Standard Time (North America)
+America/Miquelon,-10800,UTC-03:00,PMDT,Pierre & Miquelon Daylight Time
+America/Moncton,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/Monterrey,-21600,UTC-06:00,CST,Central Standard Time (North America)
+America/Montevideo,-10800,UTC-03:00,UYT,Uruguay Standard Time
+America/Montserrat,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/Nassau,-18000,UTC-05:00,EST,Eastern Standard Time (North America)
+America/New_York,-18000,UTC-05:00,EST,Eastern Standard Time (North America)
+America/Nipigon,-18000,UTC-05:00,EST,Eastern Standard Time (North America)
+America/Nome,-32400,UTC-09:00,AKST,Alaska Standard Time
+America/Noronha,-7200,UTC-02:00,FNT,Fernando de Noronha Time
+America/North_Dakota/Beulah,-21600,UTC-06:00,CST,Central Standard Time (North America)
+America/North_Dakota/Center,-21600,UTC-06:00,CST,Central Standard Time (North America)
+America/North_Dakota/New_Salem,-21600,UTC-06:00,CST,Central Standard Time (North America)
+America/Nuuk,-10800,UTC-03:00,WGT,West Greenland Time
+America/Ojinaga,-25200,UTC-07:00,MST,Mountain Standard Time (North America)
+America/Panama,-18000,UTC-05:00,EST,Eastern Standard Time (North America)
+America/Pangnirtung,-18000,UTC-05:00,EST,Eastern Standard Time (North America)
+America/Paramaribo,-10800,UTC-03:00,SRT,Suriname Time
+America/Phoenix,-25200,UTC-07:00,MST,Mountain Standard Time (North America)
+America/Port_of_Spain,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/Port-au-Prince,-18000,UTC-05:00,EST,Eastern Standard Time (North America)
+America/Porto_Velho,-14400,UTC-04:00,AMT,Amazon Time (Brazil)
+America/Puerto_Rico,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/Punta_Arenas,-10800,UTC-03:00,CLST,Chile Summer Time
+America/Rainy_River,-21600,UTC-06:00,CST,Central Standard Time (North America)
+America/Rankin_Inlet,-21600,UTC-06:00,CST,Central Standard Time (North America)
+America/Recife,-10800,UTC-03:00,BRT,Bras\u00edlia Time
+America/Regina,-21600,UTC-06:00,CST,Central Standard Time (North America)
+America/Resolute,-21600,UTC-06:00,CST,Central Standard Time (North America)
+America/Rio_Branco,-18000,UTC-05:00,ACT,Acre Time
+America/Santarem,-10800,UTC-03:00,BRT,Bras\u00edlia Time
+America/Santiago,-10800,UTC-03:00,CLST,Chile Summer Time
+America/Santo_Domingo,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/Sao_Paulo,-10800,UTC-03:00,BRT,Bras\u00edlia Time
+America/Scoresbysund,-3600,UTC-01:00,EGT,Eastern Greenland Time
+America/Sitka,-32400,UTC-09:00,AKST,Alaska Standard Time
+America/St_Barthelemy,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/St_Johns,-12600,UTC-03:30,NST,Newfoundland Standard Time
+America/St_Kitts,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/St_Lucia,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/St_Thomas,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/St_Vincent,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/Swift_Current,-21600,UTC-06:00,CST,Central Standard Time (North America)
+America/Tegucigalpa,-21600,UTC-06:00,CST,Central Standard Time (North America)
+America/Thule,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/Thunder_Bay,-18000,UTC-05:00,EST,Eastern Standard Time (North America)
+America/Tijuana,-28800,UTC-08:00,PST,Pacific Standard Time (North America)
+America/Toronto,-18000,UTC-05:00,EST,Eastern Standard Time (North America)
+America/Tortola,-14400,UTC-04:00,AST,Atlantic Standard Time
+America/Vancouver,-28800,UTC-08:00,PST,Pacific Standard Time (North America)
+America/Whitehorse,-25200,UTC-07:00,MST,Mountain Standard Time (North America)
+America/Winnipeg,-21600,UTC-06:00,CST,Central Standard Time (North America)
+America/Yakutat,-32400,UTC-09:00,AKST,Alaska Standard Time
+America/Yellowknife,-25200,UTC-07:00,MST,Mountain Standard Time (North America)
+Antarctica/Casey,39600,UTC+11:00,AWST,Australian Western Standard Time
+Antarctica/Davis,25200,UTC+07:00,DAVT,Davis Time
+Antarctica/DumontDUrville,36000,UTC+10:00,DDUT,Dumont d'Urville Time
+Antarctica/Macquarie,39600,UTC+11:00,MIST,Macquarie Island Station Time
+Antarctica/Mawson,18000,UTC+05:00,MAWT,Mawson Station Time
+Antarctica/McMurdo,46800,UTC+13:00,NZDT,New Zealand Daylight Time
+Antarctica/Palmer,-10800,UTC-03:00,CLST,Chile Summer Time
+Antarctica/Rothera,-10800,UTC-03:00,ROTT,Rothera Research Station Time
+Antarctica/Syowa,10800,UTC+03:00,SYOT,Showa Station Time
+Antarctica/Troll,0,UTC+00:00,GMT,Greenwich Mean Time
+Antarctica/Vostok,21600,UTC+06:00,VOST,Vostok Station Time
+Arctic/Longyearbyen,3600,UTC+01:00,CET,Central European Time
+Asia/Aden,10800,UTC+03:00,AST,Arabia Standard Time
+Asia/Almaty,21600,UTC+06:00,ALMT,Alma-Ata Time[1
+Asia/Amman,7200,UTC+02:00,EET,Eastern European Time
+Asia/Anadyr,43200,UTC+12:00,ANAT,Anadyr Time[4
+Asia/Aqtau,18000,UTC+05:00,AQTT,Aqtobe Time
+Asia/Aqtobe,18000,UTC+05:00,AQTT,Aqtobe Time
+Asia/Ashgabat,18000,UTC+05:00,TMT,Turkmenistan Time
+Asia/Atyrau,18000,UTC+05:00,MSD+1,Moscow Daylight Time
+Asia/Baghdad,10800,UTC+03:00,AST,Arabia Standard Time
+Asia/Bahrain,10800,UTC+03:00,AST,Arabia Standard Time
+Asia/Baku,14400,UTC+04:00,AZT,Azerbaijan Time
+Asia/Bangkok,25200,UTC+07:00,ICT,Indochina Time
+Asia/Barnaul,25200,UTC+07:00,KRAT,Krasnoyarsk Time
+Asia/Beirut,7200,UTC+02:00,EET,Eastern European Time
+Asia/Bishkek,21600,UTC+06:00,KGT,Kyrgyzstan Time
+Asia/Brunei,28800,UTC+08:00,BNT,Brunei Darussalam Time
+Asia/Chita,32400,UTC+09:00,YAKT,Yakutsk Time
+Asia/Choibalsan,28800,UTC+08:00,CHOT,Choibalsan Standard Time
+Asia/Colombo,19800,UTC+05:30,IST,Indian Standard Time
+Asia/Damascus,7200,UTC+02:00,EET,Eastern European Time
+Asia/Dhaka,21600,UTC+06:00,BDT,Bangladesh Standard Time
+Asia/Dili,32400,UTC+09:00,TLT,Timor Leste Time
+Asia/Dubai,14400,UTC+04:00,GST,Gulf Standard Time
+Asia/Dushanbe,18000,UTC+05:00,TJT,Tajikistan Time
+Asia/Famagusta,7200,UTC+02:00,EET,Eastern European Time
+Asia/Gaza,7200,UTC+02:00,EET,Eastern European Time
+Asia/Hebron,7200,UTC+02:00,EET,Eastern European Time
+Asia/Ho_Chi_Minh,25200,UTC+07:00,ICT,Indochina Time
+Asia/Hong_Kong,28800,UTC+08:00,HKT,Hong Kong Time
+Asia/Hovd,25200,UTC+07:00,HOVT,Hovd Time
+Asia/Irkutsk,28800,UTC+08:00,IRKT,Irkutsk Time
+Asia/Jakarta,25200,UTC+07:00,WIB,Western Indonesian Time
+Asia/Jayapura,32400,UTC+09:00,WIT,Eastern Indonesian Time
+Asia/Jerusalem,7200,UTC+02:00,IST,Israel Standard Time
+Asia/Kabul,16200,UTC+04:30,AFT,Afghanistan Time
+Asia/Kamchatka,43200,UTC+12:00,PETT,Kamchatka Time
+Asia/Karachi,18000,UTC+05:00,PKT,Pakistan Standard Time
+Asia/Kathmandu,20700,UTC+05:45,NPT,Nepal Time
+Asia/Khandyga,32400,UTC+09:00,YAKT,Yakutsk Time
+Asia/Kolkata,19800,UTC+05:30,IST,Indian Standard Time
+Asia/Krasnoyarsk,25200,UTC+07:00,KRAT,Krasnoyarsk Time
+Asia/Kuala_Lumpur,28800,UTC+08:00,MYT,Malaysia Time
+Asia/Kuching,28800,UTC+08:00,MYT,Malaysia Time
+Asia/Kuwait,10800,UTC+03:00,AST,Arabia Standard Time
+Asia/Macau,28800,UTC+08:00,CST,China Standard Time
+Asia/Magadan,39600,UTC+11:00,MAGT,Magadan Time
+Asia/Makassar,28800,UTC+08:00,WITA,Central Indonesia Time
+Asia/Manila,28800,UTC+08:00,PHT,Philippine Time
+Asia/Muscat,14400,UTC+04:00,GST,Gulf Standard Time
+Asia/Nicosia,7200,UTC+02:00,EET,Eastern European Time
+Asia/Novokuznetsk,25200,UTC+07:00,KRAT,Krasnoyarsk Time
+Asia/Novosibirsk,25200,UTC+07:00,NOVT,Novosibirsk Time
+Asia/Omsk,21600,UTC+06:00,OMST,Omsk Time
+Asia/Oral,18000,UTC+05:00,ORAT,Oral Time
+Asia/Phnom_Penh,25200,UTC+07:00,ICT,Indochina Time
+Asia/Pontianak,25200,UTC+07:00,WIB,Western Indonesian Time
+Asia/Pyongyang,32400,UTC+09:00,KST,Korea Standard Time
+Asia/Qatar,10800,UTC+03:00,AST,Arabia Standard Time
+Asia/Qostanay,21600,UTC+06:00,QYZST,Qyzylorda Summer Time
+Asia/Qyzylorda,18000,UTC+05:00,QYZT,Qyzylorda Summer Time
+Asia/Riyadh,10800,UTC+03:00,AST,Arabia Standard Time
+Asia/Sakhalin,39600,UTC+11:00,SAKT,Sakhalin Island Time
+Asia/Samarkand,18000,UTC+05:00,UZT,Uzbekistan Time
+Asia/Seoul,32400,UTC+09:00,KST,Korea Standard Time
+Asia/Shanghai,28800,UTC+08:00,CST,China Standard Time
+Asia/Singapore,28800,UTC+08:00,SGT,Singapore Time
+Asia/Srednekolymsk,39600,UTC+11:00,SRET,Srednekolymsk Time
+Asia/Taipei,28800,UTC+08:00,CST,China Standard Time
+Asia/Tashkent,18000,UTC+05:00,UZT,Uzbekistan Time
+Asia/Tbilisi,14400,UTC+04:00,GET,Georgia Standard Time
+Asia/Tehran,12600,UTC+03:30,IRDT,Iran Daylight Time
+Asia/Thimphu,21600,UTC+06:00,BTT,Bhutan Time
+Asia/Tokyo,32400,UTC+09:00,JST,Japan Standard Time
+Asia/Tomsk,25200,UTC+07:00,MSD+3,Moscow Daylight Time
+Asia/Ulaanbaatar,28800,UTC+08:00,ULAT,Ulaanbaatar Standard Time
+Asia/Urumqi,21600,UTC+06:00,XJT,China Standard Time
+Asia/Ust-Nera,36000,UTC+10:00,VLAT,Vladivostok Time
+Asia/Vientiane,25200,UTC+07:00,ICT,Indochina Time
+Asia/Vladivostok,36000,UTC+10:00,VLAT,Vladivostok Time
+Asia/Yakutsk,32400,UTC+09:00,YAKT,Yakutsk Time
+Asia/Yangon,23400,UTC+06:30,MMT,Myanmar Standard Time
+Asia/Yekaterinburg,18000,UTC+05:00,YEKT,Yekaterinburg Time
+Asia/Yerevan,14400,UTC+04:00,AMT,Armenia Time
+Atlantic/Azores,-3600,UTC-01:00,AZOT,Azores Standard Time
+Atlantic/Bermuda,-14400,UTC-04:00,AST,Atlantic Standard Time
+Atlantic/Canary,0,UTC+00:00,WET,Western European Time
+Atlantic/Cape_Verde,-3600,UTC-01:00,CVT,Cape Verde Time
+Atlantic/Faroe,0,UTC+00:00,WET,Western European Time
+Atlantic/Madeira,0,UTC+00:00,WET,Western European Time
+Atlantic/Reykjavik,0,UTC+00:00,GMT,Greenwich Mean Time
+Atlantic/South_Georgia,-7200,UTC-02:00,GST,South Georgia and the South Sandwich Islands Time
+Atlantic/St_Helena,0,UTC+00:00,GMT,Greenwich Mean Time
+Atlantic/Stanley,-10800,UTC-03:00,FKST,Falkland Islands Summer Time
+Australia/Adelaide,37800,UTC+10:30,ACDT,Australian Central Daylight Saving Time
+Australia/Brisbane,36000,UTC+10:00,AEST,Australian Eastern Standard Time
+Australia/Broken_Hill,37800,UTC+10:30,ACDT,Australian Central Daylight Saving Time
+Australia/Currie,39600,UTC+11:00,AEDT,Australian Eastern Daylight Saving Time
+Australia/Darwin,34200,UTC+09:30,ACST,Australian Central Standard Time
+Australia/Eucla,31500,UTC+08:45,ACWST,Australian Central Western Standard Time (Unofficial)
+Australia/Hobart,39600,UTC+11:00,AEDT,Australian Eastern Daylight Saving Time
+Australia/Lindeman,36000,UTC+10:00,AEST,Australian Eastern Standard Time
+Australia/Lord_Howe,39600,UTC+11:00,LHST,Lord Howe Summer Time
+Australia/Melbourne,39600,UTC+11:00,AEDT,Australian Eastern Daylight Saving Time
+Australia/Perth,28800,UTC+08:00,AWST,Australian Western Standard Time
+Australia/Sydney,39600,UTC+11:00,AEDT,Australian Eastern Daylight Saving Time
+Europe/Amsterdam,3600,UTC+01:00,CET,Central European Time
+Europe/Andorra,3600,UTC+01:00,CET,Central European Time
+Europe/Astrakhan,14400,UTC+04:00,SAMT,Samara Time
+Europe/Athens,7200,UTC+02:00,EET,Eastern European Time
+Europe/Belgrade,3600,UTC+01:00,CET,Central European Time
+Europe/Berlin,3600,UTC+01:00,CET,Central European Time
+Europe/Bratislava,3600,UTC+01:00,CET,Central European Time
+Europe/Brussels,3600,UTC+01:00,CET,Central European Time
+Europe/Bucharest,7200,UTC+02:00,EET,Eastern European Time
+Europe/Budapest,3600,UTC+01:00,CET,Central European Time
+Europe/Busingen,3600,UTC+01:00,CET,Central European Time
+Europe/Chisinau,7200,UTC+02:00,EET,Eastern European Time
+Europe/Copenhagen,3600,UTC+01:00,CET,Central European Time
+Europe/Dublin,0,UTC+00:00,GMT,Greenwich Mean Time
+Europe/Gibraltar,3600,UTC+01:00,CET,Central European Time
+Europe/Guernsey,0,UTC+00:00,GMT,Greenwich Mean Time
+Europe/Helsinki,7200,UTC+02:00,EET,Eastern European Time
+Europe/Isle_of_Man,0,UTC+00:00,GMT,Greenwich Mean Time
+Europe/Istanbul,10800,UTC+03:00,EET,Eastern European Time
+Europe/Jersey,0,UTC+00:00,GMT,Greenwich Mean Time
+Europe/Kaliningrad,7200,UTC+02:00,EET,Eastern European Time
+Europe/Kiev,7200,UTC+02:00,EET,Eastern European Time
+Europe/Kirov,10800,UTC+03:00,MSK,Moscow Time
+Europe/Lisbon,0,UTC+00:00,WET,Western European Time
+Europe/Ljubljana,3600,UTC+01:00,CET,Central European Time
+Europe/London,0,UTC+00:00,GMT,Greenwich Mean Time
+Europe/Luxembourg,3600,UTC+01:00,CET,Central European Time
+Europe/Madrid,3600,UTC+01:00,CET,Central European Time
+Europe/Malta,3600,UTC+01:00,CET,Central European Time
+Europe/Mariehamn,7200,UTC+02:00,EET,Eastern European Time
+Europe/Minsk,10800,UTC+03:00,MSK,Moscow Time
+Europe/Monaco,3600,UTC+01:00,CET,Central European Time
+Europe/Moscow,10800,UTC+03:00,MSK,Moscow Time
+Europe/Oslo,3600,UTC+01:00,CET,Central European Time
+Europe/Paris,3600,UTC+01:00,CET,Central European Time
+Europe/Podgorica,3600,UTC+01:00,CET,Central European Time
+Europe/Prague,3600,UTC+01:00,CET,Central European Time
+Europe/Riga,7200,UTC+02:00,EET,Eastern European Time
+Europe/Rome,3600,UTC+01:00,CET,Central European Time
+Europe/Samara,14400,UTC+04:00,SAMT,Samara Time
+Europe/San_Marino,3600,UTC+01:00,CET,Central European Time
+Europe/Sarajevo,3600,UTC+01:00,CET,Central European Time
+Europe/Saratov,14400,UTC+04:00,MSD,oscow Daylight Time
+Europe/Simferopol,10800,UTC+03:00,MSK,Moscow Time
+Europe/Skopje,3600,UTC+01:00,CET,Central European Time
+Europe/Sofia,7200,UTC+02:00,EET,Eastern European Time
+Europe/Stockholm,3600,UTC+01:00,CET,Central European Time
+Europe/Tallinn,7200,UTC+02:00,EET,Eastern European Time
+Europe/Tirane,3600,UTC+01:00,CET,Central European Time
+Europe/Ulyanovsk,14400,UTC+04:00,SAMT,Samara Time
+Europe/Uzhgorod,7200,UTC+02:00,EET,Eastern European Time
+Europe/Vaduz,3600,UTC+01:00,CET,Central European Time
+Europe/Vatican,3600,UTC+01:00,CET,Central European Time
+Europe/Vienna,3600,UTC+01:00,CET,Central European Time
+Europe/Vilnius,7200,UTC+02:00,EET,Eastern European Time
+Europe/Volgograd,14400,UTC+04:00,MSK,Moscow Standard Time
+Europe/Warsaw,3600,UTC+01:00,CET,Central European Time
+Europe/Zagreb,3600,UTC+01:00,CET,Central European Time
+Europe/Zaporozhye,7200,UTC+02:00,EET,Eastern European Time
+Europe/Zurich,3600,UTC+01:00,CET,Central European Time
+Indian/Antananarivo,10800,UTC+03:00,EAT,East Africa Time
+Indian/Chagos,21600,UTC+06:00,IOT,Indian Ocean Time
+Indian/Christmas,25200,UTC+07:00,CXT,Christmas Island Time
+Indian/Cocos,23400,UTC+06:30,CCT,Cocos Islands Time
+Indian/Comoro,10800,UTC+03:00,EAT,East Africa Time
+Indian/Kerguelen,18000,UTC+05:00,TFT,French Southern and Antarctic Time
+Indian/Mahe,14400,UTC+04:00,SCT,Seychelles Time
+Indian/Maldives,18000,UTC+05:00,MVT,Maldives Time
+Indian/Mauritius,14400,UTC+04:00,MUT,Mauritius Time
+Indian/Mayotte,10800,UTC+03:00,EAT,East Africa Time
+Indian/Reunion,14400,UTC+04:00,RET,R\u00e9union Time
+Pacific/Apia,50400,UTC+14:00,WST,West Samoa Time
+Pacific/Auckland,46800,UTC+13:00,NZDT,New Zealand Daylight Time
+Pacific/Bougainville,39600,UTC+11:00,BST,ougainville Standard Time
+Pacific/Chatham,49500,UTC+13:45,CHAST,Chatham Standard Time
+Pacific/Chuuk,36000,UTC+10:00,CHUT,Chuuk Time
+Pacific/Easter,-18000,UTC-05:00,EASST,Easter Island Summer Time
+Pacific/Efate,39600,UTC+11:00,VUT,Vanuatu Time
+Pacific/Enderbury,46800,UTC+13:00,PHOT,Phoenix Island Time
+Pacific/Fakaofo,46800,UTC+13:00,TKT,Tokelau Time
+Pacific/Fiji,43200,UTC+12:00,FJT,Fiji Time
+Pacific/Funafuti,43200,UTC+12:00,TVT,Tuvalu Time
+Pacific/Galapagos,-21600,UTC-06:00,GALT,Gal\u00e1pagos Time
+Pacific/Gambier,-32400,UTC-09:00,GAMT,Gambier Islands Time
+Pacific/Guadalcanal,39600,UTC+11:00,SBT,Solomon Islands Time
+Pacific/Guam,36000,UTC+10:00,CHST,Chamorro Standard Time
+Pacific/Honolulu,-36000,TC-10:00,HST,Hawaii Standard Time
+Pacific/Kiritimati,50400,UTC+14:00,LINT,Line Islands Time
+Pacific/Kosrae,39600,UTC+11:00,KOST,Kosrae Time
+Pacific/Kwajalein,43200,UTC+12:00,MHT,Marshall Islands Time
+Pacific/Majuro,43200,UTC+12:00,MHT,Marshall Islands Time
+Pacific/Marquesas,-34200,UTC-09:30,MART,Marquesas Islands Time
+Pacific/Midway,-39600,UTC-11:00,SST,Samoa Standard Time
+Pacific/Nauru,43200,UTC+12:00,NRT,Nauru Time
+Pacific/Niue,-39600,UTC-11:00,NUT,Niue Time
+Pacific/Norfolk,43200,UTC+12:00,NFT,Norfolk Time
+Pacific/Noumea,39600,UTC+11:00,NCT,New Caledonia Time
+Pacific/Pago_Pago,-39600,UTC-11:00,SST,Samoa Standard Time
+Pacific/Palau,32400,UTC+09:00,PWT,Palau Time
+Pacific/Pitcairn,-28800,UTC-08:00,PST,Pacific Standard Time (North America)
+Pacific/Pohnpei,39600,UTC+11:00,PONT,Pohnpei Standard Time
+Pacific/Port_Moresby,36000,UTC+10:00,PGT,Papua New Guinea Time
+Pacific/Rarotonga,-36000,UTC-10:00,CKT,Cook Island Time
+Pacific/Saipan,36000,UTC+10:00,ChST,Chamorro Standard Time
+Pacific/Tahiti,-36000,UTC-10:00,TAHT,Tahiti Time
+Pacific/Tarawa,43200,UTC+12:00,GILT,Gilbert Island Time
+Pacific/Tongatapu,46800,UTC+13:00,TOT,Tonga Time
+Pacific/Wake,43200,UTC+12:00,WAKT,Wake Island Time
+Pacific/Wallis,43200,UTC+12:00,WFT,Wallis & Futuna Time

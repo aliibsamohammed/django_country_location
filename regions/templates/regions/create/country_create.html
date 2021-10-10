@@ -1,0 +1,12 @@
+{% extends 'base.html' %}{% load static %}{% load bootstrap4 %} {% block content %}
+
+<h2>New Country Form<a href="{% url 'country_import' %} " class="btn btn-primary mb-2 mt-2 float-right ">Import Country</a></h2>
+<hr>
+<br>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %} {% bootstrap_form form %}
+    <button class="btn btn-primary btn-block" type="submit">Submit</button>
+
+</form>
+
+{% endblock %}

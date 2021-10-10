@@ -1,0 +1,46 @@
+{% extends 'base.html' %}{% load static %}{% load bootstrap4 %}{% load i18n %} {% block content %}
+<br>
+
+<div class="box">
+    <h3 class="heading">{% trans 'List of Continents' %}</h3>
+    <hr>
+    <p>
+        <a href="{% url 'continent_create' %}">Add Continent</a>
+    </p>
+
+    <div class="table-responsive-md">
+        <table class="table table-striped table-hover table-bordered">
+            <thead class="thead-light ">
+                <tr>
+                    <th>Code</th>
+                    <th>Name</th>
+                    <th>Date Created</th>
+                    <th>Date Modified</th>
+                    <th>Detail</th>
+                    <th>Update</th>
+                    <th>Delete?</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for continent in continents %}
+                <tr>
+                    <td>{{ continent.code }}</td>
+                    <td><a href="{% url 'continentsubcontinent_list' continent.pk %}">{{ continent.name }}</a></td>
+                    <td>{{ continent.date_created }}</td>
+                    <td>{{ continent.date_mod }}</td>
+                    <td><a href="{% url 'continent_detail' continent.pk %}">Detail</a></td>
+                    <td><a href="{% url 'continent_update' continent.pk %}">Update</a></td>
+                    <td><a href="{% url 'continent_confirm_delete' continent.pk %}">Delete</a></td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="4">No city in the database. <a href="{% url 'continent_create' %}">Add the first continent</a>.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,46 @@
+{% extends 'base.html' %}{% load static %}{% load i18n %}{% load bootstrap4 %} {% block content %}
+
+<body>
+    <br>
+    <h2> {{ state }} State Details</h2>
+    <hr>
+    <div class="container" id="cId" latitude="{{city.latitude}}" longitude="{{city.longitude}}">
+
+        <div class="col-md-6">
+            <div class="card text-dark bg-grey mb-3" style="max-width: 36rem;">
+                <div class="card-header" style="background-color:rgb(51, 255, 112);">
+                    <h5>State Code: {{ state.state_code }}</h5>
+                </div>
+
+                <div class=" card-body" style="background-color:rgb(255, 218, 51);">
+                    <h6 class="card-title">
+                        Continent = {{ state.country.continent }}
+                    </h6>
+                    <h6 class="card-title">
+                        Sub Continent = {{ state.country.subcontinent }}
+                    </h6>
+                    <h6 class="card-title">
+                        Country = {{ state.country }}
+                    </h6>
+                    <h6 class="card-title">
+                        No. of Cities = {{ cities_count }}
+                    </h6>
+
+                </div>
+                <div class="card-footer text-light bg-danger ">
+                    <a href="#" class="btn btn-primary float-left mr-2 mt-2">Show Location</a>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+
+
+{% endblock content %}

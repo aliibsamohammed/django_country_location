@@ -1,0 +1,52 @@
+{% extends 'base.html' %}{% load static %}{% load bootstrap4 %}{% load i18n %} {% block content %}
+
+<br>
+
+<div class="box">
+    <h3 class="heading">{% trans 'List of Sub Continents' %}</h3>
+    <p>
+        {% trans 'No. of Sub Continents' %} = {{ num_subcontinents }}</a>
+    </p>
+    <hr>
+    <p>
+        <a href="{% url 'subcontinent_create' %}">Add Sub Continent</a>
+    </p>
+    <div class="table-responsive-md">
+        <table class="table table-striped table-hover table-bordered">
+            <thead class="thead-light ">
+                <tr>
+                    <th>Continent Code</th>
+                    <th>Continent Name</th>
+                    <th>Sub Continent Name</th>
+                    <th>Date Created</th>
+                    <th>Date Modified</th>
+                    <th>Detail</th>
+                    <th>Update</th>
+                    <th>Delete?</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for subcontinent in subcontinents %}
+                <tr>
+                    <td>{{ subcontinent.continent.code }}</td>
+                    <td>{{ subcontinent.continent.name }}</td>
+                    <td><a href="{% url 'subcontinentcountry_list' subcontinent.pk %} ">{{ subcontinent.name }}</a></td>
+
+                    <td>{{ subcontinent.date_created }}</td>
+                    <td>{{ subcontinent.date_mod }}</td>
+                    <td><a href="{% url 'subcontinent_detail' subcontinent.pk %} ">Detail</a></td>
+                    <td><a href="{% url 'subcontinent_update' subcontinent.pk %} ">Update</a></td>
+                    <td><a href="{% url 'subcontinent_confirm_delete' subcontinent.pk %} ">Delete</a></td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="4 ">No sub continent in the database. <a href="{% url 'subcontinent_create' %} ">Add the first subcontinent</a>.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+
+    </div>
+</div>
+{% endblock %}

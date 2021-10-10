@@ -1,0 +1,85 @@
+{% extends 'base.html' %}{% load static %}{% get_media_prefix as MEDIA_URL %} {% load i18n %}{% load bootstrap4 %} {% block content %}
+
+<body>
+    <br>
+    <h2> {{ country }} Country Details</h2>
+    <hr>
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="card text-dark bg-grey mb-3">
+                <img src="/media/{ MEDIA_URL }/{{ country.flag_image }}" class="card-img-top" alt="image_cap" width="100%">
+                <div class="card-img-overlay">
+
+                    <h6>ISO2: {{ country.iso2 }}</h6>
+                    <h6>ISO3: {{ country.iso3 }}</h6>
+                </div>
+                <div class="card-body">
+                    <h6 class="card-title">
+                        Continent = {{ country.continent }}
+                    </h6>
+                    <h6 class="card-title">
+                        Sub Continent = {{ country.subcontinent }}
+                    </h6>
+                    <h6 class="card-title">
+                        Capital City = {{ country.capital }}
+                    </h6>
+                    <h6 class="card-title">
+                        Phone Code = +{{ country.phone_code }}
+                    </h6>
+                    <h6 class="card-title">
+                        Currency = {{ country.currency }}
+                    </h6>
+
+                    <h6 class="card-title">
+                        Currency Symbol = {{ country.currency_symbol }}
+                    </h6>
+                    <h6 class="card-title">
+                        Top Level Domain = {{ country.tld }}
+                    </h6>
+                    <h6 class="card-title">
+                        Flag Emoji = {{ country.emoji }}
+                    </h6>
+                    <h6 class="card-title">
+                        Area (sq. km) = {{ country.area }}
+                    </h6>
+                    <h6 class="card-title">
+                        Population = {{ country.population }}
+                    </h6>
+                    <h6 class="card-title">
+                        Time Zones:
+                        <ul style="list-style-type:none;">
+                            {% for tz in timezones %}
+                            <li>Zone: {{ tz.zoneName }}, &nbsp; GMT Offset: {{ tz.gmtOffsetName }}
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </h6>
+                    <h6 class="card-title">
+                        No. of States = {{ states_count }}
+                    </h6>
+                    <h6 class="card-title">
+                        No. of Cities = {{ cities_count }}
+                    </h6>
+
+                </div>
+                <div class="card-footer text-light bg-info">
+                    <a href="#" class="btn btn-light float-left mr-2 mt-2">Show Location</a>
+                    <a href="#" class="btn btn-light float-right mr-2 mt-2">Show Flag</a>
+                    <a href="#" class="btn btn-light float-right mr-2 mt-2">Show Map</a>
+                </div>
+            </div>
+            <div class="card image-top">
+                <img src="/media/{{ country.map_image }}" class="card-img-top" alt="image_cap" width="100px">
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+
+
+{% endblock content %}

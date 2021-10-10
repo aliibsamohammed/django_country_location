@@ -1,0 +1,11 @@
+{% extends 'base.html' %}{% load static %}{% load bootstrap4 %} {% block content %}
+<h1>Import Time Zones</h1>
+<hr>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="myfile">
+    <br>
+    <br>
+    <button class="btn btn-primary btn-block" type="submit">Import Time Zones Data</button>
+</form>
+{% endblock %}

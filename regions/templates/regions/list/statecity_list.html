@@ -1,0 +1,64 @@
+{% extends 'base.html' %}{% load static %} {% load i18n %} {% load bootstrap4 %} {% block content %}
+
+<br>
+
+<h3>
+    COUNTRY: {{ state.country.name|upper }}
+</h3>
+<br>
+
+<h3>
+    State: {{ state.state_name|title }}
+</h3>
+<hr>
+
+<div class="box">
+    <h3 class="heading">{% trans 'List of cities' %}</h3>
+
+    <p>
+        {% trans 'No. of cities' %} = {{ num_cities }}</a>
+    </p>
+    <hr>
+    <p>
+        <a href="{% url 'city_create' %}">Add City</a>
+    </p>
+
+    <div class="table-responsive-md">
+        <table class="table table-striped table-hover table-bordered">
+            <thead class="thead-light ">
+                <tr>
+                    <th>City Id</th>
+                    <th>District/County/Zone</th>
+                    <th>City Name</th>
+                    <th>Latitude</th>
+                    <th>Longitude</th>
+                    <th>Date Modified</th>
+                    <th>Update</th>
+                    <th>Delete?</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for city in cities %}
+                <tr>
+                    <td>{{ city.id }}</td>
+                    <td>{{ city.district }}</td>
+                    <td>{{ city.city_name }}</td>
+                    <td>{{ city.latitude }}</td>
+                    <td>{{ city.longitude }}</td>
+                    <td>{{ city.date_mod }}</td>
+                    <td><a href="{% url 'city_update' city.pk %}">Update</a></td>
+                    <td><a href="{% url 'city_confirm_delete' city.pk %}">Delete</a></td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="4">No city in the {{ state.state_name|upper }} database. <a href="{% url 'city_create' %}">Add the first state</a>.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+
+    </div>
+</div>
+<br>
+<br> {% endblock %}

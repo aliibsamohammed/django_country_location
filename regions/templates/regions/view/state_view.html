@@ -1,0 +1,11 @@
+{% extends 'base.html' %}{% load static %}{% load bootstrap4 %} {% block content %}
+
+<h2>State Form</h2>
+
+<form method="post">
+    {% csrf_token %} {% bootstrap_form form %}
+    <button class="btn btn-primary btn-block" type="submit">Submit</button>
+    <a href="{% url 'country_form' %}">Country</a>
+</form>
+
+{% endblock %}

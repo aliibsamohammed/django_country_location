@@ -1,0 +1,59 @@
+{% extends 'base.html' %}{% load static %}{% load bootstrap4 %} {% load i18n %} {% block content %}
+
+<br>
+<div class="box">
+    <h3 class="heading">{% trans 'List of Countries' %}</h3>
+    <hr>
+    <p>
+        <a href="{% url 'country_create' %}">Add Country</a>
+    </p>
+
+    <div class="table-responsive-md">
+        <table class="table table-striped table-hover table-bordered">
+            <thead class="thead-light ">
+                <tr>
+                    <th>Id </th>
+                    <th>ISO3166-2</th>
+                    <th>Name</th>
+                    <th>Phone Code</th>
+                    <th>Capital</th>
+                    <th>Currency</th>
+                    <th>Currency Symbol</th>
+                    <th>Domain (tld)</th>
+                    <th>Continent</th>
+                    <th>Sub Continent</th>
+                    <th>Detail</th>
+                    <th>Update</th>
+                    <th>Delete?</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                {% for country in countries %}
+                <tr>
+                    <td>{{ country.id }}</td>
+                    <td>{{ country.iso2 }}</td>
+                    <td><a href="{% url 'countrystate_list' country.pk %}">{{ country.name }}</a></td>
+                    <td>{{ country.phone_code }}</td>
+                    <td>{{ country.capital }}</td>
+                    <td>{{ country.currency }}</td>
+                    <td>{{ country.currency_symbol }}</td>
+                    <td>{{ country.tld }}</td>
+                    <td>{{ country.continent.name }}</td>
+                    <td>{{ country.subcontinent.name }}</td>
+                    <td><a href="{% url 'country_detail' country.pk %}">Detail</a></td>
+                    <td><a href="{% url 'country_update' country.pk %}">Update</a></td>
+                    <td><a href="{% url 'country_confirm_delete' country.pk %}">Delete</a></td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="4">No city in the database. <a href="{% url 'country_create' %}">Add the first country</a>.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+
+    </div>
+</div>
+{% endblock %}

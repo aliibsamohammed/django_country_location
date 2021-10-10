@@ -1,0 +1,53 @@
+{% extends 'base.html' %}{% load static %} {% load i18n %} {% load bootstrap4 %} {% block content %}
+<br>
+
+<h3>
+    {{ continent.name|upper }}
+</h3>
+
+<hr>
+<p>
+    {% trans 'No. of Sub Continents' %} = {{ num_subcontinents }}</a>
+</p>
+<div class="box">
+    <h3 class="heading">{% trans 'List of Sub Continents' %}</h3>
+    <hr>
+    <p>
+        <a href="{% url 'subcontinent_create' %}">Add Sub Continent</a>
+    </p>
+
+    <div class="table-responsive-md">
+        <table class="table table-striped table-hover table-bordered">
+            <thead class="thead-light ">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Date Created</th>
+                    <th>Date Modified</th>
+                    <th>Update</th>
+                    <th>Delete?</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for subcontinent in subcontinents %}
+                <tr>
+                    <td>{{ subcontinent.id }}</td>
+                    <td><a href="{% url 'subcontinentcountry_list' subcontinent.pk %}">{{ subcontinent.name }}</a></td>
+                    <td>{{ subcontinent.date_created }}</td>
+                    <td>{{ subcontinent.date_mod }}</td>
+                    <td><a href="##">Update</a></td>
+                    <td><a href="{% url 'subcontinent_confirm_delete' subcontinent.pk %}">Delete</a></td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="4">No city in the database. <a href="{% url 'subcontinent_create' %}">Add the first sub continent</a>.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+
+    </div>
+</div>
+<br>
+<br> {% endblock %}

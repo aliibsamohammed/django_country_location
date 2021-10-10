@@ -1,0 +1,54 @@
+{% extends 'base.html' %}{% load static %}{% load bootstrap4 %}{% load i18n %} {% block content %}
+
+<br>
+<div class="box">
+    <h3 class="heading">{% trans 'List of Cities' %}</h3>
+    <hr>
+    <p>
+        <a href="{% url 'city_create' %}">Add City</a>
+    </p>
+
+    <div class="table-responsive-md">
+        <table class="table table-striped table-hover table-bordered">
+            <thead class="thead-light ">
+                <tr>
+                    <th>ISO3166-2</th>
+                    <th>Country</th>
+                    <th>State</th>
+                    <th>District / County / Zone</th>
+                    <th>City Name</th>
+                    <th>Latitude</th>
+                    <th>Longitude</th>
+                    <th>Location</th>
+                    <th>Detail</th>
+                    <th>Update</th>
+                    <th>Delete?</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for city in cities %}
+                <tr>
+                    <td>{{ city.country.iso2 }}</td>
+                    <td>{{ city.country.name }}</td>
+                    <td>{{ city.state.state_name }}</td>
+                    <td>{{ city.district }}</td>
+                    <td>{{ city.city_name }}</td>
+                    <td>{{ city.latitude }}</td>
+                    <td>{{ city.longitude }}</td>
+                    <td><a href="{% url 'city_location' city.pk %}">Location</a></td>
+                    <td><a href="{% url 'city_detail' city.pk %}">Detail</a></td>
+                    <td><a href="{% url 'city_update' city.pk %}">Update</a></td>
+                    <td><a href="{% url 'city_confirm_delete' city.pk %}">Delete</a></td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="4">No city in the database. <a href="{% url 'city_create' %}">Add the first city</a>.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+
+    </div>
+</div>
+{% endblock %}

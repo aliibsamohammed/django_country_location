@@ -1,0 +1,16 @@
+{% extends 'base.html' %} {% load bootstrap4 %}{% load i18n %} {% block extrascript %} {{ form.media }} {% endblock %} {% block content %}
+
+<h1>Delete Country</h1>
+<hr>
+<br>
+<p>Are you sure you want to delete the sub continent:
+    <h4>{{ subcontinent|upper }}?</h4>
+</p>
+<br>
+
+<form action="" method="POST">
+    {% csrf_token %}
+    <input type="submit" action="" value="Yes, Delete" class="btn btn-outline-primary btn-sm" />
+</form>
+
+{% endblock %}

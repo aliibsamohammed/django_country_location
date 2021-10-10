@@ -1,0 +1,17 @@
+{% extends "base.html" %} {% load static %}{% get_media_prefix as MEDIA_URL %}{% load bootstrap4 %} {% bootstrap_css %} {% bootstrap_javascript jquery='full' %}{{ form.media }}{% block content %}
+
+<!--User-->
+<br><br>
+<div class="container mx-auto">
+    {{ r.content }}
+    <div class="card w-25 p-4" style="width: 18rem;">
+        <p class="text-muted mb-0" style="font-size: 12px">Address:</p>
+        <img src="{{ r.content }}" class="card-img-top" alt="">
+
+        <hr>
+    </div>
+</div>
+
+
+
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends 'base.html' %}{% load static %}{% load bootstrap4 %} {% block title %}SUB CONTINENTAL MODULE{% endblock %} {% block content %}
+
+<h2>New Sub Continent Form<a href="{% url 'subcontinent_import' %} " class="btn btn-primary mb-2 mt-2 float-right ">Import SubContinents</a></h2>
+<hr>
+<br>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %} {% bootstrap_form form %}
+    <button class="btn btn-primary btn-block" type="submit">Submit</button>
+
+</form>
+
+{% endblock %}

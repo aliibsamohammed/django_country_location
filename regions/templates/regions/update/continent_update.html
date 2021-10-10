@@ -1,0 +1,11 @@
+{% extends 'base.html' %}{% load static %}{% load bootstrap4 %} {% block content %}
+
+<h2>Continent Update</h2>
+<hr>
+<br>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %} {% bootstrap_form form %}
+    <button class="btn btn-primary btn-block" type="submit">Update</button>
+
+</form>
+<br> {% endblock %}

@@ -1,0 +1,12 @@
+{% extends 'base.html' %}{% load static %}{% load bootstrap4 %} {% block content %}
+
+<h1>Import Cities</h1>
+<hr>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="myfile">
+    <br>
+    <br>
+    <button class="btn btn-primary btn-block" type="submit">Import City</button>
+</form>
+{% endblock %}
