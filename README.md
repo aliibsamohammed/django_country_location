@@ -65,3 +65,4 @@ Just run this command:
 ```
 python location/manage.py runserver
 ```
+You can view app on https://ibsaworldlocation.herokuapp.com/
