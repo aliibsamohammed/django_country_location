@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect, get_object_or_404
 from django.core.exceptions import ObjectDoesNotExist
 from django.views.generic.edit import FormView, CreateView, UpdateView, DeleteView
 from django.contrib import messages
@@ -47,7 +47,7 @@ class IndexPageView(TemplateView):
 
             }
 
-            return render(self.request, 'regions/index.html', context)
+            return render(self.request, 'index.html', context)
         except ObjectDoesNotExist:
             messages.info(self.request, 'You do not have list of countries')
             return redirect('country_index')
@@ -332,13 +332,13 @@ class TimeZoneDetailView(DetailView):
 
     def get_queryset(self, pk):
         try:
-            timetone = TimeZone.objects.get(id=pk)
+            timezone = TimeZone.objects.get(id=pk)
             context = {
-                'timetone': timetone,
+                'timezone': timezone,
             }
             return render(self.request, 'regions/detail/timezone_detail.html', context)
         except ObjectDoesNotExist:
-            messages.info(self.request, 'You do not have timetone for details')
+            messages.info(self.request, 'You do not have details for this time zone to view')
             return redirect('timezone_detail')
 
 
@@ -361,7 +361,7 @@ class ContinentDetailView(DetailView):
 
             return render(self.request, 'regions/detail/continent_detail.html', context)
         except ObjectDoesNotExist:
-            messages.info(self.request, 'You do not have continent details to view')
+            messages.info(self.request, 'You do not have details for this continent to view')
             return redirect('continent_index')
     
 
@@ -382,7 +382,7 @@ class SubContinentDetailView(DetailView):
 
             return render(self.request, 'regions/detail/subcontinent_detail.html', context)
         except ObjectDoesNotExist:
-            messages.info(self.request, 'You do not have subcontinent details to view')
+            messages.info(self.request, 'You do not have details for this sub continent to view')
             return redirect('subcontinent_index')
 
 
@@ -405,7 +405,7 @@ class CountryDetailView(DetailView):
 
             return render(self.request, 'regions/detail/country_detail.html', context)
         except ObjectDoesNotExist:
-            messages.info(self.request, 'You do not have country details to view')
+            messages.info(self.request, 'You do not have details for this country to view')
             return redirect('country_index')
 
 
@@ -422,7 +422,7 @@ class StateDetailView(DetailView):
 
             return render(self.request, 'regions/detail/state_detail.html', context)
         except ObjectDoesNotExist:
-            messages.info(self.request, 'You do not have country details to view')
+            messages.info(self.request, 'You do not have details for this state to view')
             return redirect('state_index')
 
 
@@ -658,3 +658,6 @@ def delete_country(request, country_id):
     country_sel.delete()
     return redirect('addresses:country_list')
 
+
+class AboutView(TemplateView):
+    template_name = 'about.html'

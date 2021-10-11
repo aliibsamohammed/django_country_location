@@ -1,9 +1,10 @@
 from django.urls import include, path
 
+
 from . import views
 
 urlpatterns = [
-    path('', views.IndexPageView.as_view(), name='index'),
+    #path('', views.IndexPageView.as_view(), name='index'),
     path('continent/create/', views.ContinentCreateView.as_view(), name='continent_create'),
     path('subcontinent/create/', views.SubContinentCreateView.as_view(), name='subcontinent_create'),
     path('country/create/', views.CountryCreateView.as_view(), name='country_create'),    

@@ -354,12 +354,12 @@ class Address(models.Model):
         return reverse('address-detail', args=[str(self.id)])
 
     def show_location(self, request):
-        api_key = "AIzaSyCguM9VRT3p6kfNJ720nMQoPXc2NIs0M5E"
+        api_key = "your-api-key"
         url = "https://maps.googleapis.com/maps/api/staticmap?"
         
         center = self.city
         zoom = 15
-        r = requests.get(url + "center =" + center + "&zoom =" + str(zoom) + "&size=400x400&key =AIzaSyCguM9VRT3p6kfNJ720nMQoPXc2NIs0M5E")# + "sensor = false")
+        r = requests.get(url + "center =" + center + "&zoom =" + str(zoom) + "&size=400x400&key =your-api-key")# + "sensor = false")
         context = {'r': r}
         return render(request, 'addresses/show_location.html', context,)
 
@@ -380,19 +380,3 @@ class Person(models.Model):
         ordering = ['name']
         verbose_name_plural = 'Persons'
 
-
-"""
-class County(models.Model):
-    name = models.CharField(_('Name'), max_length=100, unique=True)
-
-class Municipality(models.Model):
-    county = models.ForeignKey(County, verbose_name=_('County'))
-    name = models.CharField(_('Name'), max_length=100)
-
-class Location(models.Model):
-    name = models.CharField(max_length=100)
-    county = models.ForeignKey(County, verbose_name=_('County'))
-    municipality = models.ForeignKey(Municipality,
-            verbose_name=_("Municipality"))
-
-"""

@@ -1,30 +1,11 @@
 {% extends 'base.html' %}{% load static %}{% load bootstrap4 %} {% block content %}
 
-<h2>Person Form</h2>
+<h2>City Form</h2>
 
-<form method="post" id="personForm" data-states-url="{% url 'ajax_load_states' %}" novalidate>
+<form method="post">
     {% csrf_token %} {% bootstrap_form form %}
     <button class="btn btn-primary btn-block" type="submit">Submit</button>
-    <a href="{% url 'state_form' %}">State</a>
+    <a href="{% url 'country_import' %}">Import Country</a>
 </form>
-
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script>
-    $("#id_country").change(function() {
-        var url = $("#personForm").attr("data-states-url");
-        var countryId = $(this).val();
-
-        $.ajax({
-            url: url,
-            data: {
-                'country': countryId
-            },
-            success: function(data) {
-                $("#id_state").html(data);
-            }
-        });
-
-    });
-</script>
 
 {% endblock %}

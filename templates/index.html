@@ -1,0 +1,62 @@
+{% extends "base.html" %} {% load static %} {% load bootstrap4 %} {% block content %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+</head>
+
+<body>
+    <div class="container border-primary" style="background-color:DodgerBlue;">
+        <h1 style="color:black;" style="font-family: sans-serif">Welcome!</h1>
+        <div class="card">
+            <img src="{% static 'images/world_map.png' %}" class="card-img-top" alt="My image" height="50%" />
+        </div>
+        <h1 style="font-family: Times New Roman">World Address locations</h1>
+        <div class="container border-primary" style="background-color:DodgerBlue;">
+            <div class="card mb-2">
+                <div class="card-header">
+                    Address Locations
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Continents</h3>
+                    <h5 class="card-text">{{ num_continents }} continents</h5>
+                    <a href="{% url 'continent_index' %}" class="btn btn-primary">Read More</a>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Sub Continents</h3>
+                    <h5 class="card-text">{{ num_subcontinents }} sub continents</h5>
+                    <a href="{% url 'subcontinent_index' %}" class="btn btn-primary">Read More</a>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Countries</h3>
+                    <h5 class="card-text">{{ num_countries }} countries.</h5>
+                    <a href="{% url 'country_index' %}" class="btn btn-primary">Read More</a>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">States</h3>
+                    <h5 class="card-text">{{ num_states }} states</h5>
+                    <a href="{% url 'state_index' %}" class="btn btn-primary">Read More</a>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Cities</h3>
+                    <h5 class="card-text">{{ num_cities }} cities.</h5>
+                    <a href="{% url 'continent_index' %}" class="btn btn-primary">Read More</a>
+                </div>
+                <div class="card-footer text-muted">
+                    updated 2 days ago
+                </div>
+            </div>
+            <div class="card mb-2">
+                <div class="card-body">
+                    <p class="card-text">You have visited this page {{ num_visits }} time{% if num_visits > 1 %}s{% endif %}.</p>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
+
+<br>
+<br> <br>
+<br> {% endblock %}

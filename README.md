@@ -8,6 +8,11 @@ Country location and database Project.
 | ------------|-----------------------|--------------------------|
 | <img src="picture/home.png" width="200"> | <img src="picture/continents.png" width="200"> | <img src="picture/countries.png"  width="200"> |
 
+|     Detail    |       import data      |       Creat/Import       |
+| --------------|------------------------|--------------------------|
+| <img src="picture/country-detail.png" width="200"> | <img src="picture/import.png" width="200"> | <img src="picture/city.png"  width="200"> |
+
+
 ## Functionality
 
 - Import, create, edit, view  and delete continent data

@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django import forms
-from .models import Continent, SubContinent, Country, State, City, Person
+from .models import Continent, SubContinent, Country, State, City, Person, TimeZone
 from import_export.admin import ImportExportModelAdmin, ImportExportActionModelAdmin
 from import_export import fields, resources
 from import_export.admin import ExportActionMixin
@@ -43,10 +43,8 @@ class CountryResource(resources.ModelResource):
     class Meta:
         model = Country
         fields = ('continent', 'country_code', 'country_name', 'id',)
-#        widgets = {
-#                'cont_StartDate': {'format': '%d.%m.%Y'},
-#                'cont_CompletionDate': {'format': '%d.%m.%Y'},
-#                }
+    
+
 
 
 class StateResource(resources.ModelResource):
@@ -70,6 +68,15 @@ class CityResource(resources.ModelResource):
         fields = ('country', 'name')
 
 
+class TimeZoneResource(resources.ModelResource):
+    class Meta:
+        model = TimeZone
+        #import_id_fields = ('cont_Id',)
+        fields = ('zoneName', 'gmtOffset', 'gmtOffsetName', 'abbreviation', 'tzName', 'id')
+
+class TimeZoneAdmin(ImportExportModelAdmin):
+    resource_class = ContinentResource
+
 class ContinentAdmin(ImportExportModelAdmin):
     resource_class = ContinentResource
 
@@ -79,13 +86,14 @@ class SubContinentAdmin(ImportExportModelAdmin):
 class CountryAdmin(ImportExportModelAdmin):
     resource_class = CountryResource
 
+
 class StateAdmin(ImportExportModelAdmin):
     resource_class = StateResource
 
 class CityAdmin(ImportExportModelAdmin):
     resource_class = CityResource
 
-
+admin.site.register(TimeZone, TimeZoneAdmin)
 admin.site.register(Continent, ContinentAdmin)
 admin.site.register(SubContinent, SubContinentAdmin)
 admin.site.register(Country, CountryAdmin)
