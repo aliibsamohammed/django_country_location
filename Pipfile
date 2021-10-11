@@ -10,6 +10,7 @@ django-bootstrap-datepicker-plus = "*"
 django-import-export = "*"
 requests = "*"
 pillow = "*"
+gunicorn = "*"
 
 [dev-packages]
 
